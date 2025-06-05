@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                echo 'Cloning the repo...'
+                echo 'Cloning repo...'
             }
         }
         stage('Build') {
             steps {
-                echo 'Building the application...'
+                echo 'Building the app...'
             }
         }
         stage('Test') {
@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying the application...'
+                echo 'Deploying the app...'
             }
         }
     }
